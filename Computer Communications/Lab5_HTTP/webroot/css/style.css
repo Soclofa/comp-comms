@@ -1,0 +1,129 @@
+
+.intro{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.intro h2 {
+    font-size: 2vw;
+    font-family: 'press start 2p', sans-serif;
+    text-align: center; 
+}
+.blue-hr {
+    margin: 0; 
+    border-top: 5px dashed #A9F0F5;
+    opacity: 100; 
+}
+
+.black-hr {
+    margin: 0; 
+    border-top: 5px dashed black;
+    opacity: 100;
+}
+
+  .norwester-font {
+    font-family: 'Norwester', sans-serif;
+  }
+
+  .name-plate {
+       /* Specify the size of the centered div as needed */
+       width: 90%;
+       height: 90%;
+     
+       border: 1vw solid  #A9F0F5;
+       border-radius: 5%; 
+       background-color: white;
+       display: flex; 
+       flex-direction: column; 
+       justify-content: center;
+       align-items: center;
+       margin: 1rem; 
+  }
+
+  .name-plate > h1 {
+    width: 90%; 
+    text-align: center; 
+    font-size: 9vw; 
+    -webkit-text-stroke-width: 0.3vw;
+    -webkit-text-stroke-color: #A9F0F5;
+}
+
+.back {
+    background-color: #A9F0F5;
+    border: .5vw solid white; 
+    border-radius: 25%; 
+    padding: 5%; 
+    margin: 1%; 
+
+}
+
+img {
+    max-height: 300px; 
+    max-width: 300px; 
+}
+
+
+  .comp-sci {
+    background-color: #A9F0F5; 
+    width: 100vw;
+    height: auto; 
+  }
+
+  .comp-sci > h2 {
+    font-size: 9vw; 
+    width: 90%; 
+    text-align: left; 
+    padding-left: 5vw; 
+    padding-top: 5vh; 
+    padding-bottom: 5vh;
+    -webkit-text-stroke-width: 0.3vw;
+    -webkit-text-stroke-color: white;
+    margin: 0; 
+}
+  
+.experience {
+    width: 100vw;
+    height: auto; 
+    background-color: black; 
+}
+
+.experience  h2 {
+    font-size: 9vw; 
+    width: 90%; 
+    color: #A9F0F5;
+    text-align: center; 
+    -webkit-text-stroke-width: 0.3vw;
+    -webkit-text-stroke-color: white;
+    margin-top: 5%; 
+    margin-bottom: 3%; 
+    
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-color: #A9F0F5; /* Replace 'red' with your desired color */
+}
+
+
+.link-style {
+    font-family: 'press start 2p', sans-serif;
+    color: #A9F0F5;
+    text-align: center; 
+    padding-top: 5%;
+    padding-bottom: 8%; 
+}
+
+#text-style {
+    color: black; 
+    font-size: 10vw; 
+    -webkit-text-stroke-width: 0.3vw;
+    -webkit-text-stroke-color: white;
+}
+
+.profileImg {   
+    display: inline-block; 
+}
